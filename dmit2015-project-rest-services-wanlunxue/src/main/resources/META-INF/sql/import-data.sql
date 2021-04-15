@@ -1,0 +1,2 @@
+insert into note(id,category,content,createdDateTime,lastModifiedDateTime,title) values('1','study','i love study','2021-01-12T12:22','2021-01-15T02:20','dmit2015');
+insert into note(id,category,content,createdDateTime,lastModifiedDateTime,title) values('2','work','i do not want to work','2021-01-20T12:22','2021-01-28T02:20','today');
