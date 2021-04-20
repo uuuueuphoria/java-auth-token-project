@@ -31,6 +31,9 @@ public class ApplicationStartupListener implements ServletContextListener {
             CallerUser user02 = new CallerUser();
             user02.setUsername("admin01@dmit2015.ca");
             callerUserRepository.add(user02, "Password2015", new String[]{"ADMIN"});
+            CallerUser user03 = new CallerUser();
+            user03.setUsername("user02@dmit2015.ca");
+            callerUserRepository.add(user03, "Password2015", new String[]{"USER"});
 
         } else {
             logger.info("Application has user accounts");

@@ -168,7 +168,7 @@ public class NoteResource {
     @GET    // GET: webapi/Note/user
     @Path("user")
     public Response getNoteByUser() {
-        return Response.ok(noteRepository.findbyUsername(_callerPrincipal.getName()).toString()).build();
+        return Response.ok(noteRepository.findbyUsername(_callerPrincipal.getName())).build();
     }
 
     @RolesAllowed({"USER"})
